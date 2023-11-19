@@ -7,13 +7,6 @@
 ### instalation 
 NOTE: Notim has only been tested on **Linux**, so this install may not be aplicable to windows or macOS
 
-Notim isn't reccomended to run replace a neovim config if you activly use neovim for coding,
-If this doesn't matter to you you can just clone Notim into your directory and open neovim in said folder ( I don't know exactly why but neovim can't find some files if you don't do this )
-
-```
-git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
-```
-if you want to keep your current neovim config alongside notim
 1. clone notim in your config folder as "notim" and open neovim in said folder
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
@@ -21,22 +14,7 @@ cd ~/.config/notim/
 nvim
 
 ```
-2. close neovim and set an alias for neovim using notim, this is different depending on what shell you use
-
-### fish
-type the following in your terminal
-```
-alias --save nt="nvim -u ~/.config/notim/init.lua"
-```
-### bash/zsh
-add the following to your .bashrc/.zshrc file
-```
-alias nt='nvim -u ~/.config/notim/init.lua'
-```
-after you've done this you can open notim by typing "nt" into your cli
-
-note that neorg will usually return an error due to it using treesitter for part of it's installation, you can ignore this since it should fix itself upon launching notim for the second time
-#### after you've done this you should open notim , let it install the plugins and close notim, upon relaunchin notim you should be greated by the notim dashboard
+ard
 ### issues
 - first time opening a .norg file will return a big error message, after that it will automaticly install neorg treesitter parser automatically and opening .norg files work as expected
 ### features
