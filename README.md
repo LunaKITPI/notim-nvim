@@ -9,7 +9,6 @@ NOTE: Notim has only been tested on **Linux**, so you may run into errors on win
 clone notim in your config folder and open neovim
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
-cd ~/.config/notim/
 nvim
 ```
 ### instalation while keeping old config
