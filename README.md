@@ -10,12 +10,12 @@ NOTE: Notim has only been tested on **Linux**, so this install may not be aplica
 Notim isn't reccomended to run replace a neovim config if you activly use neovim for coding,
 If this doesn't matter to you you can just clone Notim into your directory
 ```
-$ git clone notim/repo ~/.config/nvim/
+$ git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
 ```
 if you want to keep your current neovim config alongside notim
 1. clone notim in your config folder as "notim"
 ```
-$ git clone notim/repo ~/.config/notim/
+$ git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
 ```
 2. set an alias for neovim using notim, this is different depending on what shell you use
 
