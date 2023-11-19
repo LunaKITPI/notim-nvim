@@ -1,6 +1,10 @@
 local wk = require("which-key")
 
 wk.register({
+  m = {
+    name = "markdown",
+    p = { '<cmd>MarkdownPreview<cr>', 'preview markdown file in browser'}
+  },
   b = {
     name = "buffer/bookmark",
     b = {'<cmd>lua require("buffer_manager.ui").toggle_quick_menu()<CR>', "view buffers"},
