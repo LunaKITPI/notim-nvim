@@ -31,7 +31,7 @@ add this line to your .bashrc/.zshrc
 alias nt="nvim -u ~/.config/notim/init.lua"
 ```
 #### last step
-move the lua folder in from notim to your nvim config file, ( this is the reason why the files are all prefixed with notim- )
+move the lua folder in from notim to your nvim config file, if you already have a /lua folder in your nvim config, just move the contents to that lua file, ( this is the reason why the files are all prefixed with notim- )
 #### now just open neovim by typing "nt"
 -- NOTE:
     
