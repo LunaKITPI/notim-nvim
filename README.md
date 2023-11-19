@@ -5,18 +5,17 @@
 ![screenshot of bookmark plugin](./images/ScreenshotBookmarks.png)
 ![screenshot of bookmark plugin](./images/ScreenshotLazyPluginList.png)
 ### instalation 
-NOTE: Notim has only been tested on **Linux**, so this install may not be aplicable to windows or macOS
-
-1. clone notim in your config folder as "notim" and open neovim in said folder
+NOTE: Notim has only been tested on **Linux**, so you may run into errors on windows or macOS
+clone notim in your config folder
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
 cd ~/.config/notim/
 nvim
-
 ```
-ard
-### issues
-- first time opening a .norg file will return a big error message, after that it will automaticly install neorg treesitter parser automatically and opening .norg files work as expected
+-- NOTE:
+    
+    firs startup will make it look like noerg failed to install, this is due to it depending on treesitter, restarting neovim will correctly install this
+    first time opening a .norg file will result in an error while treesitter install the parser
 ### features
 - plugins chosen for ease of use
 - lightweight
