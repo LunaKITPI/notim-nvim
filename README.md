@@ -38,7 +38,7 @@ after you've done this you can open notim by typing "nt" into your cli
 note that neorg will usually return an error due to it using treesitter for part of it's installation, you can ignore this since it should fix itself upon launching notim for the second time
 #### after you've done this you should open notim , let it install the plugins and close notim, upon relaunchin notim you should be greated by the notim dashboard
 ### issues
-- first time opening a .norg file will return a big error message, after that it will automaticly install neorg treesitter parse automatically and opening .norg files work as expected
+- first time opening a .norg file will return a big error message, after that it will automaticly install neorg treesitter parser automatically and opening .norg files work as expected
 ### features
 - plugins chosen for ease of use
 - lightweight
