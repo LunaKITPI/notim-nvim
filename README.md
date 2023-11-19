@@ -6,6 +6,7 @@
 ![screenshot of bookmark plugin](./images/ScreenshotLazyPluginList.png)
 ### instalation 
 NOTE: Notim has only been tested on **Linux**, so you may run into errors on windows or macOS
+
 clone notim in your config folder and open neovim
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
