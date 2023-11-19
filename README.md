@@ -8,7 +8,7 @@
 NOTE: Notim has only been tested on **Linux**, so you may run into errors on windows or macOS
 clone notim in your config folder
 ```
-git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
+git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
 cd ~/.config/notim/
 nvim
 ```
