@@ -12,8 +12,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("sysplug")
-require("custom.userplug")
+require("notim-sysplug")
+require("notim-custom.userplug")
 
 local function combineArrays(arr1, arr2)
     local combinedArray = {}
@@ -31,11 +31,11 @@ local allPlug = combineArrays(SYSPLUG, USERPLUG)
 require("lazy").setup(allPlug)
 
 -- other files
-require("opts.opts")
-require("vars")
-require("custom.config")
-require("custom.binds")
-require("custom.opts.opts")
+require("notim-opts.opts")
+require("notim-vars")
+require("notim-custom.config")
+require("notim-custom.binds")
+require("notim-custom.opts.opts")
 
 -- couldn't get this into a which key bind but since it's name is self explanitory I'll just add it here as keybind
 vim.api.nvim_set_keymap('n', '<leader><CR>', '<cmd>Telescope bookmarks<CR>', { noremap = true, silent = true })
