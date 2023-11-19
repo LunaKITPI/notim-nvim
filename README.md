@@ -1,4 +1,5 @@
 # NOTIM-nvim
+note this is not complete yet
 ## a simple note taking tool
 ####  Notim is a preconfigured neovim setup specifically designed for note taking
 ![screenshot of the dashboard](./images/ScreenshotDashboard.png)
@@ -9,7 +10,6 @@ NOTE: Notim has only been tested on **Linux**, so you may run into errors on win
 clone notim in your config folder
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
-cd ~/.config/notim/
 nvim
 ```
 -- NOTE:
