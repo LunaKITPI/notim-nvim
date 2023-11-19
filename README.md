@@ -8,28 +8,33 @@
 NOTE: Notim has only been tested on **Linux**, so this install may not be aplicable to windows or macOS
 
 Notim isn't reccomended to run replace a neovim config if you activly use neovim for coding,
-If this doesn't matter to you you can just clone Notim into your directory
+If this doesn't matter to you you can just clone Notim into your directory and open neovim in said folder ( I don't know exactly why but neovim can't find some files if you don't do this )
+
 ```
-$ git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
+git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
 ```
 if you want to keep your current neovim config alongside notim
-1. clone notim in your config folder as "notim"
+1. clone notim in your config folder as "notim" and open neovim in said folder
 ```
-$ git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
+git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
+cd ~/.config/notim/
+nvim
+
 ```
-2. set an alias for neovim using notim, this is different depending on what shell you use
+2. close neovim and set an alias for neovim using notim, this is different depending on what shell you use
 
 ### fish
 type the following in your terminal
 ```
-$ alias --save nt="nvim -u ~/.config/notim/init.lua"
+alias --save nt="nvim -u ~/.config/notim/init.lua"
 ```
 ### bash/zsh
 add the following to your .bashrc/.zshrc file
 ```
-$ alias nt='nvim -u ~/.config/notim/init.lua'
+alias nt='nvim -u ~/.config/notim/init.lua'
 ```
 after you've done this you can open notim by typing "nt" into your cli
+#### after you've done this you should open notim , let it install the plugins and close notim, upon relaunchin notim you should be greated by the notim dashboard
 ### features
 - plugins chosen for ease of use
 - lightweight
