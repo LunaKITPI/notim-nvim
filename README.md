@@ -13,9 +13,9 @@ nvim
 ```
 ### instalation while keeping old config
 now for many ditching your old config might not be nice especially since notim is not rly made for programing, and there is a solution for that!
-1. clone notim in your config folder 
+1. clone notim into a new ~/.conifig/notim folder
 ```
-git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
+git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/notim/
 ```
 2. set an alias to use this config
 now this may be different depending on which shell you use
