@@ -1,5 +1,4 @@
 # NOTIM-nvim
-note this is not complete yet
 ## a simple note taking tool
 ####  Notim is a preconfigured neovim setup specifically designed for note taking
 ![screenshot of the dashboard](./images/ScreenshotDashboard.png)
@@ -10,7 +9,29 @@ NOTE: Notim has only been tested on **Linux**, so you may run into errors on win
 clone notim in your config folder
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
+cd ~/.config/notim/
 nvim
+```
+### instalation while keeping old config
+now for many ditching your old config might not be nice especially since notim is not rly made for programing, and there is a solution for that!
+1. clone notim in your config folder
+```
+git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
+cd ~/.config/notim/
+nvim
+```
+2. set an alias to use this config
+now this may be different depending on which shell you use
+#### fish
+in your cli type:
+```
+alias --save nt="nvim -u ~/.config/notim/init.lua"
+```
+
+#### zsh/bash
+add this line to your .bashrc/.zshrc
+```
+alias nt="nvim -u ~/.config/notim/init.lua"
 ```
 -- NOTE:
     
