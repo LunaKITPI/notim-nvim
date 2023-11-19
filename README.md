@@ -34,6 +34,7 @@ add the following to your .bashrc/.zshrc file
 alias nt='nvim -u ~/.config/notim/init.lua'
 ```
 after you've done this you can open notim by typing "nt" into your cli
+note that neorg will usually return an error due to it using treesitter for part of it's installation, you can ignore this since it should fix itself upon launching notim for the second time
 #### after you've done this you should open notim , let it install the plugins and close notim, upon relaunchin notim you should be greated by the notim dashboard
 ### features
 - plugins chosen for ease of use
