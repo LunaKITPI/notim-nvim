@@ -6,7 +6,7 @@
 ![screenshot of bookmark plugin](./images/ScreenshotLazyPluginList.png)
 ### instalation 
 NOTE: Notim has only been tested on **Linux**, so you may run into errors on windows or macOS
-clone notim in your config folder
+clone notim in your config folder and open neovim
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
 cd ~/.config/notim/
@@ -14,11 +14,9 @@ nvim
 ```
 ### instalation while keeping old config
 now for many ditching your old config might not be nice especially since notim is not rly made for programing, and there is a solution for that!
-1. clone notim in your config folder
+1. clone notim in your config folder 
 ```
 git clone https://github.com/LunaKITPI/notim-nvim.git ~/.config/nvim/
-cd ~/.config/notim/
-nvim
 ```
 2. set an alias to use this config
 now this may be different depending on which shell you use
@@ -33,6 +31,7 @@ add this line to your .bashrc/.zshrc
 ```
 alias nt="nvim -u ~/.config/notim/init.lua"
 ```
+#### now just open neovim by typing "nt"
 -- NOTE:
     
     firs startup will make it look like noerg failed to install, this is due to it depending on treesitter, restarting neovim will correctly install this
