@@ -2,8 +2,8 @@
 ## note taking in neovim
 1. [syntax](#syntax)
 2. [bookmarks](#bookmarks)
-3. [file managing](#file managing)
-4. [used plugins](#used plugins)
+3. [file managing](#file-managing)
+4. [used plugins](#used-plugins)
 ### syntax
    NOTIM uses two main file formats to take notes in, 
    - Markdown
