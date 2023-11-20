@@ -4,8 +4,9 @@
 ![screenshot of the dashboard](./images/ScreenshotDashboard.png)
 ![screenshot of bookmark plugin](./images/ScreenshotBookmarks.png)
 ![screenshot of bookmark plugin](./images/ScreenshotLazyPluginList.png)
-### instalation 
+# instalation 
 ~~NOTE: Notim has only been tested on **Linux**, so you may run into errors on windows or macOS~~
+
 -- NOTE: if you are running this on windows, go to ./lua/notim-custom/opts/norg.lua and remove the following lines
 ```
 workspaces = {
