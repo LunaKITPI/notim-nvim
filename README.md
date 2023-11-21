@@ -75,6 +75,13 @@ show the developers of these plugins support!
    - [which-key.nvim](https://github.com/folke/which-key.nvim)
    - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
    - [Markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
+   - 
+## quick start
+if you already know how neorg & markdown work
+### neorg
+to start press the keybind <Space>nn , this should open a .norg file in a new directory ~/notim ( or C:\\users\youruse\notim ) from there on you can start typing
+### markdown
+create markdown file in a folder of your choosing, then open said makrdown file and press <Space>bm to bookmark it, now whenever starting notim, you can press <Space><Return> to view all your bookmarks and thus quickly open this file
 # side note
 hi everyone, this is my first time making my own neovim config and also my first time making a github repo.
 If I did something that isn't rly "the standard" or if you notice I could've done something 
